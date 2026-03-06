@@ -2,21 +2,19 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-}
-
-caption{
-    font-weight: bolder;
-    font-size: 1.5em;
 }
 
 table{
-    width: 700px;
-    padding: 10px;
+    width: 400px;
     border-collapse: collapse;
 }
 
-th,td{
+thead, .c1{
+    background-color: rgb(104, 103, 103);
+    color: white;
+}
+
+tr, td, th{
     border: 1px solid black;
     padding: 10px;
 }
